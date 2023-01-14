@@ -125,6 +125,7 @@ GameObject:
   - component: {fileID: 116732573}
   - component: {fileID: 116732577}
   - component: {fileID: 116732576}
+  - component: {fileID: 116732578}
   m_Layer: 0
   m_Name: crab-idle-1
   m_TagString: Untagged
@@ -222,7 +223,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 116732572}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 935c7f2cd06b498449ae391f3f27815d, type: 3}
+  m_Script: {fileID: 11500000, guid: 30c0eb7d5590f6d4a83a532e97aaa6e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!50 &116732577
@@ -246,6 +247,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &116732578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116732572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c378a4e93961d774fbff3c910e6a0866, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1640975269
 GameObject:
   m_ObjectHideFlags: 0
